@@ -44,6 +44,7 @@
 		9B9089AB2BCE90FB0020E23F /* xcodecloudtmpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodecloudtmpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9089AF2BCE90FB0020E23F /* xcodecloudtmpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcodecloudtmpUITests.swift; sourceTree = "<group>"; };
 		9B9089B12BCE90FB0020E23F /* xcodecloudtmpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcodecloudtmpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B9089BE2BCE96290020E23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		9B9089932BCE90F90020E23F /* xcodecloudtmp */ = {
 			isa = PBXGroup;
 			children = (
+				9B9089BE2BCE96290020E23F /* Info.plist */,
 				9B9089942BCE90F90020E23F /* xcodecloudtmpApp.swift */,
 				9B9089962BCE90F90020E23F /* ContentView.swift */,
 				9B9089982BCE90FB0020E23F /* Assets.xcassets */,
@@ -425,6 +427,7 @@
 				DEVELOPMENT_TEAM = 2866SQ72L8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xcodecloudtmp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +457,7 @@
 				DEVELOPMENT_TEAM = 2866SQ72L8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xcodecloudtmp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
